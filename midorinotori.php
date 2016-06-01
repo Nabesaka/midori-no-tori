@@ -17,7 +17,9 @@
 if ( ! defined( 'ABSPATH' ) ) { die; } // Cannot access pages directly.
 
 // Require CodeStar Framework
-require_once get_template_directory_uri() . '/lib/csf/cs-framework.php';
+require_once plugin_dir_path( __FILE__ ) . '/lib/csf/cs-framework.php';
 
 // Require CSF Options List Definition
-require_once get_template_directory_uri() . '/lib/csf-options.php';
+require_once plugin_dir_path( __FILE__ ) . '/lib/csf-options.php';
+// Require CSF Settings Override
+require_once plugin_dir_path( __FILE__ ) . '/lib/csf-settings.php'; 

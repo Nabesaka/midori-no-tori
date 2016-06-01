@@ -1,2 +1,3 @@
-# midori-no-tori
-A instagram plugin for WordPress
+# Midori No Tori
+
+This will be a Instagram plugin for WordPress sometime in the near future. Please don't clone it as it probably isn't ready yet...
